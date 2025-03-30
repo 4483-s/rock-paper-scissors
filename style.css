@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Winky Sans";
+}
+body {
+  color: aliceblue;
+  background-color: rgb(57, 61, 94);
+  padding: 5%;
+}
+h1 {
+  font-size: 7vw;
+}
+div {
+  /* border: 1px solid red; */
+}
+.main {
+  display: flex;
+  margin-bottom: 5vw;
+}
+.main > * {
+  flex: 1;
+}
+.score {
+  font-size: 9vw;
+}
+.result {
+  height: 10vw;
+}
+.btndiv {
+  display: flex;
+}
+.btndiv button {
+  height: 22vw;
+  margin: 3vw;
+  border-style: none;
+  flex: 1;
+}
+button {
+  font-size: 7vw;
+  border-radius: 9vw;
+  background-color: pink;
+}
+
+.reset {
+  width: 23vw;
+  height: 16vw;
+  background-color: brown;
+}

@@ -4,9 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>rockpapersscissors</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <h1>ROCK PAPER SCISSORS</h1>
+    <section class="main">
+      <div class="score">
+        <div>Human</div>
+        <div class="humanscore">0</div>
+      </div>
+
+      <div class="score">
+        <div>Computer</div>
+
+        <div class="computerscore">0</div>
+      </div>
+    </section>
+    <div class="result"></div>
+    <div class="btndiv">
+      <button>Rock</button><button>Paper</button><button>Scissors</button>
+    </div>
+    <button class="reset">Reset</button>
     <script src="script.js"></script>
   </body>
 </html>
